@@ -1,0 +1,89 @@
+{
+    "name": "Increment",
+    "logoURI": "",
+    "keywords": [
+        "increment",
+        "defi"
+    ],
+    "timestamp": "2022-04-05T00:00:00.000+00:00",
+    "tokens": [
+        {
+            "name": "Flow",
+            "address": "0x7e60df042a9c0868",
+            "symbol": "FLOW",
+            "decimals": 8,
+            "contractName": "FlowToken",
+            "path": {
+                "vault": "/storage/flowTokenVault",
+                "balance": "/public/flowTokenBalance",
+                "receiver": "/public/flowTokenReceiver"
+            },
+            "logoURI": ""
+        },
+        {
+            "name": "Flow USD",
+            "address": "0xe223d8a629e49c68",
+            "symbol": "FUSD",
+            "decimals": 8,
+            "contractName": "FUSD",
+            "path": {
+                "vault": "/storage/fusdVault",
+                "balance": "/public/fusdBalance",
+                "receiver": "/public/fusdReceiver"
+            },
+            "logoURI": ""
+        },
+        {
+            "name": "USD Coin",
+            "address": "0xa983fecbed621163",
+            "symbol": "USDC",
+            "decimals": 8,
+            "contractName": "FiatToken",
+            "path": {
+                "vault": "/storage/USDCVault",
+                "balance": "/public/USDCVaultBalance",
+                "receiver": "/public/USDCVaultReceiver"
+            },
+            "logoURI": ""
+        },
+        {
+            "name": "Blocto Token",
+            "address": "0x6e0797ac987005f5",
+            "symbol": "BLT",
+            "decimals": 8,
+            "contractName": "BloctoToken",
+            "path": {
+                "vault": "/storage/bloctoTokenVault",
+                "balance": "/public/bloctoTokenBalance",
+                "receiver": "/public/bloctoTokenReceiver"
+            },
+            "logoURI": ""
+        },
+        {
+            "name": "Mynft Token",
+            "address": "0x40212f3e288efd03",
+            "symbol": "MY",
+            "decimals": 8,
+            "contractName": "MyToken",
+            "path": {
+                "vault": "/storage/mytokenVault",
+                "balance": "/public/mytokenBalance",
+                "receiver": "/public/mytokenReceiver"
+            },
+            "logoURI": ""
+        },
+        {
+            "name": "Starly Token",
+            "address": "0xf63219072aaddd50",
+            "contractName": "StarlyToken",
+            "symbol": "STARLY",
+            "decimals": 8,
+            "path": {
+                "vault": "/storage/starlyTokenVault",
+                "balance": "/public/starlyTokenBalance",
+                "receiver": "/public/starlyTokenReceiver"
+            },
+            "logoURI": ""
+        }
+    ]
+}
