@@ -18,7 +18,7 @@
                 "balance": "/public/flowTokenBalance",
                 "receiver": "/public/flowTokenReceiver"
             },
-            "logoURI": ""
+            "logoURI": "https://raw.githubusercontent.com/IncrementFi/token-list/main/assets/flow.svg"
         },
         {
             "name": "Flow USD",
@@ -31,7 +31,7 @@
                 "balance": "/public/fusdBalance",
                 "receiver": "/public/fusdReceiver"
             },
-            "logoURI": ""
+            "logoURI": "https://raw.githubusercontent.com/IncrementFi/token-list/main/assets/fusd.svg"
         },
         {
             "name": "USD Coin",
@@ -44,7 +44,7 @@
                 "balance": "/public/USDCVaultBalance",
                 "receiver": "/public/USDCVaultReceiver"
             },
-            "logoURI": ""
+            "logoURI": "https://raw.githubusercontent.com/IncrementFi/token-list/main/assets/usdc.svg"
         },
         {
             "name": "Blocto Token",
@@ -57,7 +57,7 @@
                 "balance": "/public/bloctoTokenBalance",
                 "receiver": "/public/bloctoTokenReceiver"
             },
-            "logoURI": ""
+            "logoURI": "https://raw.githubusercontent.com/IncrementFi/token-list/main/assets/blt.png"
         },
         {
             "name": "Mynft Token",
@@ -70,7 +70,7 @@
                 "balance": "/public/mytokenBalance",
                 "receiver": "/public/mytokenReceiver"
             },
-            "logoURI": ""
+            "logoURI": "https://raw.githubusercontent.com/IncrementFi/token-list/main/assets/my.png"
         },
         {
             "name": "Starly Token",
@@ -83,7 +83,7 @@
                 "balance": "/public/starlyTokenBalance",
                 "receiver": "/public/starlyTokenReceiver"
             },
-            "logoURI": ""
+            "logoURI": "https://raw.githubusercontent.com/IncrementFi/token-list/main/assets/starly.png"
         }
     ]
 }
