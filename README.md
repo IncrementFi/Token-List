@@ -1,7 +1,5 @@
-# Token-List on Flow Blockchain
+## TokenList for Flow Blockchain
 
-This repository includes JSON schemas for Flow Fungible Token lists.
-Since the vault resource of the token needs to be stored in the user account, it is very important to maintain such a token list unlike ERC20 tokens. 
-This will help some DeFi protocals to identify and interact with new tokens.
+* This repository includes a list of Fungible Tokens on Flow blockchain. Unlike ERC20 tokens, in order to support FT on flow, several paths (`VaultPath`, `BalancePath`, and `ReceiverPath`) should also be provided along with contract addresses.
 
-Please submit a Pull Request to add new tokens to the list.
+* To add a new FT to the list, submit a pull request including both 1. FT logo under `assets/`; 2. A new description blob in the tokenlist json file. 
