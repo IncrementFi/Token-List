@@ -47,6 +47,19 @@
             "logoURI": "https://cdn.jsdelivr.net/gh/IncrementFi/token-list@main/assets/usdc.svg"
         },
         {
+            "name": "tUSDT",
+            "address": "0xcfdd90d4a00f7b5b",
+            "contractName": "TeleportedTetherToken",
+            "symbol": "tUSDT",
+            "decimals": 8,
+            "path": {
+                "vault": "/storage/teleportedTetherTokenVault",
+                "balance": "/public/teleportedTetherTokenBalance",
+                "receiver": "/public/teleportedTetherTokenReceiver"
+            },
+            "logoURI": "https://cdn.jsdelivr.net/gh/FlowFans/flow-token-list@main/token-registry/A.cfdd90d4a00f7b5b.TeleportedTetherToken/logo.png"
+        },
+        {
             "name": "Blocto Token",
             "address": "0x0f9df91c9121c460",
             "contractName": "BloctoToken",
@@ -73,17 +86,108 @@
             "logoURI": "https://cdn.jsdelivr.net/gh/IncrementFi/token-list@main/assets/my.png"
         },
         {
-            "name": "Starly Token",
-            "address": "0x142fa6570b62fd97",
-            "contractName": "StarlyToken",
-            "symbol": "STARLY",
+            "name": "WETH (Celer)",
+            "address": "0x231cc0dbbcffc4b7",
+            "contractName": "ceWETH",
+            "symbol": "ceWETH",
             "decimals": 8,
             "path": {
-                "vault": "/storage/starlyTokenVault",
-                "balance": "/public/starlyTokenBalance",
-                "receiver": "/public/starlyTokenReceiver"
+                "vault": "/storage/ceWETHVault",
+                "balance": "/public/ceWETHBalance",
+                "receiver": "/public/ceWETHReceiver"
             },
-            "logoURI": "https://cdn.jsdelivr.net/gh/IncrementFi/token-list@main/assets/starly.png"
+            "logoURI": "https://cdn.jsdelivr.net/gh/FlowFans/flow-token-list@main/token-registry/A.231cc0dbbcffc4b7.ceWETH/logo.png"
+        },
+        {
+            "name": "ceWBTC (Celer)",
+            "address": "0x231cc0dbbcffc4b7",
+            "contractName": "ceWBTC",
+            "symbol": "ceWBTC",
+            "decimals": 8,
+            "path": {
+                "vault": "/storage/ceWBTCVault",
+                "balance": "/public/ceWBTCBalance",
+                "receiver": "/public/ceWBTCReceiver"
+            },
+            "logoURI": "https://cdn.jsdelivr.net/gh/FlowFans/flow-token-list@main/token-registry/A.231cc0dbbcffc4b7.ceWBTC/logo.png"
+        },
+        {
+            "name": "ceBUSD (Celer)",
+            "address": "0x231cc0dbbcffc4b7",
+            "contractName": "ceBUSD",
+            "symbol": "ceBUSD",
+            "decimals": 8,
+            "path": {
+                "vault": "/storage/ceBUSDVault",
+                "balance": "/public/ceBUSDBalance",
+                "receiver": "/public/ceBUSDReceiver"
+            },
+            "logoURI": "https://cdn.jsdelivr.net/gh/FlowFans/flow-token-list@main/token-registry/A.231cc0dbbcffc4b7.ceBUSD/logo.png"
+        },
+        {
+            "name": "ceUSDT (Celer)",
+            "address": "0x231cc0dbbcffc4b7",
+            "contractName": "ceUSDT",
+            "symbol": "ceUSDT",
+            "decimals": 8,
+            "path": {
+                "vault": "/storage/ceUSDTVault",
+                "balance": "/public/ceUSDTBalance",
+                "receiver": "/public/ceUSDTReceiver"
+            },
+            "logoURI": "https://cdn.jsdelivr.net/gh/FlowFans/flow-token-list@main/token-registry/A.231cc0dbbcffc4b7.ceUSDT/logo.png"
+        },
+        {
+            "name": "ceBNB (Celer)",
+            "address": "0x231cc0dbbcffc4b7",
+            "contractName": "ceBNB",
+            "symbol": "ceBNB",
+            "decimals": 8,
+            "path": {
+                "vault": "/storage/ceBNBVault",
+                "balance": "/public/ceBNBBalance",
+                "receiver": "/public/ceBNBReceiver"
+            },
+            "logoURI": "https://cdn.jsdelivr.net/gh/FlowFans/flow-token-list@main/token-registry/A.231cc0dbbcffc4b7.ceBNB/logo.png"
+        },
+        {
+            "name": "ceFTM (Celer)",
+            "address": "0x231cc0dbbcffc4b7",
+            "contractName": "ceFTM",
+            "symbol": "ceFTM",
+            "decimals": 8,
+            "path": {
+                "vault": "/storage/ceFTMVault",
+                "balance": "/public/ceFTMBalance",
+                "receiver": "/public/ceFTMReceiver"
+            },
+            "logoURI": "https://cdn.jsdelivr.net/gh/FlowFans/flow-token-list@main/token-registry/A.231cc0dbbcffc4b7.ceFTM/logo.png"
+        },
+        {
+            "name": "ceAVAX (Celer)",
+            "address": "0x231cc0dbbcffc4b7",
+            "contractName": "ceAVAX",
+            "symbol": "ceAVAX",
+            "decimals": 8,
+            "path": {
+                "vault": "/storage/ceAVAXVault",
+                "balance": "/public/ceAVAXBalance",
+                "receiver": "/public/ceAVAXReceiver"
+            },
+            "logoURI": "https://cdn.jsdelivr.net/gh/FlowFans/flow-token-list@main/token-registry/A.231cc0dbbcffc4b7.ceAVAX/logo.png"
+        },
+        {
+            "name": "ceMATIC (Celer)",
+            "address": "0x231cc0dbbcffc4b7",
+            "contractName": "ceMATIC",
+            "symbol": "ceMATIC",
+            "decimals": 8,
+            "path": {
+                "vault": "/storage/ceMATICVault",
+                "balance": "/public/ceMATICBalance",
+                "receiver": "/public/ceMATICReceiver"
+            },
+            "logoURI": "https://cdn.jsdelivr.net/gh/FlowFans/flow-token-list@main/token-registry/A.231cc0dbbcffc4b7.ceMATIC/logo.png"
         }
     ]
 }

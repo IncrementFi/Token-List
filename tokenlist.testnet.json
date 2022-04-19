@@ -71,19 +71,6 @@
                 "receiver": "/public/mytokenReceiver"
             },
             "logoURI": "https://cdn.jsdelivr.net/gh/IncrementFi/token-list@main/assets/my.png"
-        },
-        {
-            "name": "Starly Token",
-            "address": "0xf63219072aaddd50",
-            "contractName": "StarlyToken",
-            "symbol": "STARLY",
-            "decimals": 8,
-            "path": {
-                "vault": "/storage/starlyTokenVault",
-                "balance": "/public/starlyTokenBalance",
-                "receiver": "/public/starlyTokenReceiver"
-            },
-            "logoURI": "https://cdn.jsdelivr.net/gh/IncrementFi/token-list@main/assets/starly.png"
         }
     ]
 }
