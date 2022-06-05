@@ -60,17 +60,17 @@
             "logoURI": "https://cdn.jsdelivr.net/gh/FlowFans/flow-token-list@main/token-registry/A.cfdd90d4a00f7b5b.TeleportedTetherToken/logo.png"
         },
         {
-            "name": "Blocto Token",
-            "address": "0x0f9df91c9121c460",
-            "contractName": "BloctoToken",
-            "symbol": "BLT",
+            "name": "Ozone Token",
+            "address": "0xd756450f386fb4ac",
+            "contractName": "OzoneToken",
+            "symbol": "Ozone",
             "decimals": 8,
             "path": {
-                "vault": "/storage/bloctoTokenVault",
-                "balance": "/public/bloctoTokenBalance",
-                "receiver": "/public/bloctoTokenReceiver"
+                "vault": "/storage/ozonetokenVault",
+                "balance": "/public/ozonetokenBalance",
+                "receiver": "/public/ozonetokenReceiver"
             },
-            "logoURI": "https://cdn.jsdelivr.net/gh/IncrementFi/token-list@main/assets/blt.png"
+            "logoURI": "https://cdn.jsdelivr.net/gh/IncrementFi/token-list@main/assets/ozone.png"
         },
         {
             "name": "Mynft Token",
@@ -84,6 +84,19 @@
                 "receiver": "/public/mytokenReceiver"
             },
             "logoURI": "https://cdn.jsdelivr.net/gh/IncrementFi/token-list@main/assets/my.png"
+        },
+        {
+            "name": "Blocto Token",
+            "address": "0x0f9df91c9121c460",
+            "contractName": "BloctoToken",
+            "symbol": "BLT",
+            "decimals": 8,
+            "path": {
+                "vault": "/storage/bloctoTokenVault",
+                "balance": "/public/bloctoTokenBalance",
+                "receiver": "/public/bloctoTokenReceiver"
+            },
+            "logoURI": "https://cdn.jsdelivr.net/gh/IncrementFi/token-list@main/assets/blt.png"
         },
         {
             "name": "WETH (Celer)",
