@@ -201,6 +201,19 @@
                 "receiver": "/public/ceMATICReceiver"
             },
             "logoURI": "https://cdn.jsdelivr.net/gh/FlowFans/flow-token-list@main/token-registry/A.231cc0dbbcffc4b7.ceMATIC/logo.png"
+        },
+        {
+            "name": "WENP Token",
+            "address": "0x231cc0dbbcffc4b7",
+            "contractName": "WenPacksDigitaleToken",
+            "symbol": "WENP",
+            "decimals": 8,
+            "path": {
+                "vault": "/storage/WenPacksDigitaleTokenVault",
+                "balance": "/public/WenPacksDigitaleTokenMetadata",
+                "receiver": "/public/WenPacksDigitaleTokenReceiver"
+            },
+            "logoURI": "https://wenpacks.co/static/wenp.png"
         }
     ]
 }
